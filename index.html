@@ -4,23 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/geraTempo.js"></script>
     <title>Codigo</title>
+
 </head>
 
 <body>
-    <div>
+
+    <div id="operacion1">
         <div>
-            <h1>Lenguaje y Automatas</h1>
-            <h3>Codigo Intermedio</h3>
+            <h1>Lenguaje y Automatas II</h1><br>
+            <h2>Codigo Intermedio</h2><br>
         </div>
-        <input type="button" value="Ingresar dato" onclick="temporal()">
+        <hr>
+        <div>
+            <div>
+                <h3>Operacion 1</h3>
+            </div>
+            <input type="text" name="Dato" id='ecu0' value="2 + 5 * Y">
+            <button onclick="Ecu0()">GeneraCode</button>
+            <hr>
+        </div>
+
     </div>
-    <div>
-        <h2>Resultado del codigo Intermedio</h2>
+    <div id="operacion2">
+        <div>
+            <div>
+                <h3>Operacion 2</h3>
+            </div>
+            <input type="text" name="Dato" id='ecu1' value="a / a + b * b">
+            <button onclick="Ecu1()">GeneraCode</button>
+            <hr>
+        </div>
     </div>
+    <div id="operacion3">
+        <div>
+            <div>
+                <h3>Operacion 3</h3>
+            </div>
+            <input type="text" name="Dato" id='ecu2' value="( a + 2 ) / 3 + b">
+            <button onclick="Ecu2()">GeneraCode</button>
+            <hr>
+        </div>
+
+    </div>
+    <div id="operacion1">
+        <div>
+            <div>
+                <h3>Operacion 4</h3>
+            </div>
+            <input type="text" name="Dato" id='ecu' value="un no tiene funcion">
+            <button onclick="Ecu0()">GeneraCode</button>
+            <hr>
+        </div>
+
+    </div>
+
+
 
 
 </body>
+<script src="js/triplo.js"></script>
 
 </html>
